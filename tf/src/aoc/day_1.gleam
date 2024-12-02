@@ -1,5 +1,3 @@
-/////////////// PART TWO ///////////////
-
 import aoc/util/input as i
 import gleam/int
 import gleam/io
