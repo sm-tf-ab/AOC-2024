@@ -1,5 +1,7 @@
-import gleam/io
+import aoc/day_1
+import aoc/day_2
 
 pub fn main() {
-  io.println("Hello from aoc_2024!")
+  day_1.main()
+  day_2.main()
 }

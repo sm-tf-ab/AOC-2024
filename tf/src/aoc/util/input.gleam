@@ -10,3 +10,11 @@ pub fn read(day day: Int) -> String {
       panic as "Could not load that day. Please make sure that the file is named properly."
   }
 }
+
+pub fn read_test(day day: Int) -> String {
+  case simplifile.read("./inputs/day" <> day |> int.to_string() <> "test.txt") {
+    Ok(res) -> res
+    Error(_) ->
+      panic as "Could not load that day. Please make sure that the file is named properly."
+  }
+}

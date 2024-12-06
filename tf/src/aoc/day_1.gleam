@@ -13,8 +13,8 @@ import gleam/string
 // They also have to be output as `Int` so we can do the math with them.
 pub fn main() {
   let input = i.read(day: 1)
-  io.println("Part 1: " <> part_one(input))
-  io.println("Part 2: " <> part_two(input))
+  io.println("Day 1, Part 1: " <> part_one(input))
+  io.println("Day 1, Part 2: " <> part_two(input))
 }
 
 //  PART ONE 
